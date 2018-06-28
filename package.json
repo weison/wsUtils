@@ -1,0 +1,30 @@
+{
+  "name": "wsutils",
+  "version": "0.2.0",
+  "description": "utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node script/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weison/wsUtils.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weison/wsUtils/issues"
+  },
+  "homepage": "https://github.com/weison/wsUtils#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.12.2"
+  },
+  "dependencies": {
+    "copy": "^0.3.2",
+    "ora": "^2.1.0"
+  }
+}
