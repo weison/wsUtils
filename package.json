@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/weison/wsUtils.git"
   },
-  "author": "",
+  "author": "weison",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/weison/wsUtils/issues"
