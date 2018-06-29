@@ -4,7 +4,7 @@
   "description": "utils",
   "main": "min/ws-utils.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "build": "node script/build.js"
   },
   "repository": {
@@ -21,6 +21,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
+    "mocha": "^5.2.0",
     "webpack": "^4.12.2"
   },
   "dependencies": {
