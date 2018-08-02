@@ -3,7 +3,6 @@
  * @example 自动引入子目录下所有js文件
  */
 let moduleExports = {};
-
 const r = require.context('./', true, /^\.\/.+\/.+\.js$/);
 
 r.keys().forEach(key => {
